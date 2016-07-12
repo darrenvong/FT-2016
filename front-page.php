@@ -19,8 +19,8 @@
                       <div class="buttonTransparent" > <i class="fa fa-angle-down"></i>  Latest</div>
                     </a>
 
-                    <a href="/varsity" class="mobileHide">
-                      <div class="buttonDark">Varsity</div>
+                    <a href="/tramlines" class="mobileHide">
+                      <div class="buttonDark">Tramlines</div>
                     </a>
 
               </div>
