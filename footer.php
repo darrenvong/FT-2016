@@ -14,7 +14,7 @@
           ?>
         </nav>
 
-        <span>&copy; Forge Media <?php echo date('Y'); ?>. Site by <a href="http://joshuahackett.com/">Joshua Hackett</a>.</span>
+        <span>&copy; Forge Media <?php echo date('Y'); ?>. Site by Joshua Hackett.</span>
 
       </footer>
 
