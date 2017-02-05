@@ -3,8 +3,7 @@
       <section class="hero">
 
           <video class="background" poster="<?php echo get_stylesheet_directory_uri(); ?>/poster.jpg" autoplay loop>
-                <source src="http://www.joshuahackett.com/forge/video-short.mp4" type="video/mp4">
-                <source src="<?php echo get_stylesheet_directory_uri() . "/video.webm"; ?>" type="video/webm">
+              <source src="<?php echo get_stylesheet_directory_uri() . "/video.webm"; ?>" type="video/webm">
           </video>
 
           <div class="cover">
@@ -125,7 +124,6 @@
           </script>
 
                 <script src="<?php echo get_stylesheet_directory_uri() . "/scroll.js"; ?>"></script>
-
 
 
 <?php get_footer(); ?>
