@@ -1,30 +1,9 @@
 <?php get_header( "front" ); ?>
 
       <section class="hero">
-
-          <video class="background" poster="<?php echo get_stylesheet_directory_uri(); ?>/poster.jpg" autoplay loop>
-              <source src="<?php echo get_stylesheet_directory_uri() . "/video.webm"; ?>" type="video/webm">
-          </video>
-
-          <div class="cover">
-              <div class="siteInfo">
-
-                  <img src="<?php echo get_stylesheet_directory_uri() . "/logo.svg"; ?>" alt="Forge"/>
-                  <hr class="light">
-                  <h4>Award-winning student media from<br>
-                    the University of Sheffield.</h4>
-
-                    <a href="#latest">
-                      <div class="buttonTransparent" > <i class="fa fa-angle-down"></i>  Latest</div>
-                    </a>
-
-                    <!-- <a href="/tramlines" class="mobileHide">
-                      <div class="buttonDark">Tramlines</div>
-                    </a> -->
-
-              </div>
-          </div>
-
+        <a href="http://forgetoday.com/elections/">
+          <img src="<?php echo get_template_directory_uri() . "/elections2.jpg"?>">
+        </a>
       </section>
 
       <section class="latest" id="latest">

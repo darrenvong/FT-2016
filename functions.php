@@ -1,25 +1,22 @@
 <?php
 
-//Initial addition of responsive styling and jQuery
-
-	wp_enqueue_style( 'Primary styles', get_stylesheet_uri() );
-	wp_enqueue_style( 'Grid', get_stylesheet_directory_uri() . '/grid.css' );
-	wp_enqueue_style( 'Responsive', get_stylesheet_directory_uri() . '/responsive.css' );
-	wp_enqueue_style( 'FontAwesome', get_stylesheet_directory_uri() . '/font-awesome/css/font-awesome.min.css');
-	wp_enqueue_style( 'unsliderStyle', get_template_directory_uri() . '/unslider/unslider.css');
-
-
-
-	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/jquery.js');
-	wp_enqueue_script( 'masonry', 'https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js');
-	wp_enqueue_script( 'unslider', get_template_directory_uri() . '/unslider/unslider.js');
-
-
-
 //Load in jQuery UI on Elections page
 
 function my_enqueue_stuff() {
+  //Initial addition of responsive styling and jQuery
 
+  wp_enqueue_style( 'Primary styles', get_stylesheet_uri() );
+  wp_enqueue_style( 'Grid', get_stylesheet_directory_uri() . '/grid.css' );
+  wp_enqueue_style( 'Responsive', get_stylesheet_directory_uri() . '/responsive.css' );
+  wp_enqueue_style( 'FontAwesome', get_stylesheet_directory_uri() . '/font-awesome/css/font-awesome.min.css');
+  wp_enqueue_style( 'unsliderStyle', get_template_directory_uri() . '/unslider/unslider.css');
+
+
+
+  wp_enqueue_script( 'jquery', get_template_directory_uri() . '/jquery.js');
+  wp_enqueue_script( 'masonry', 'https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js');
+  wp_enqueue_script( 'unslider', get_template_directory_uri() . '/unslider/unslider.js');
+  
   if ( is_page( 11189 ) ) {
 
     wp_enqueue_script( 'jQueryUI', 'http://code.jquery.com/ui/1.11.4/jquery-ui.js');

@@ -11,7 +11,7 @@
     <body name="top">
 
       <header>
-        <a href="#top"><img class="siteLogo" src="<?php echo get_stylesheet_directory_uri() . "/logo-dark.svg"; ?>" alt="Forge"/></a>
+        <a href="/"><img class="siteLogo" src="<?php echo get_stylesheet_directory_uri() . "/logo-dark.svg"; ?>" alt="Forge"/></a>
         <nav class="left">
           <?php
           $args = array(
