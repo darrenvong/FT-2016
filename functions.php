@@ -103,7 +103,7 @@ function first_post_image() {
 
 function twenty_posts_on_homepage( $query ) {
     if ( $query->is_home() && $query->is_main_query() ) {
-        $outlets = array( 'tv', 'press', 'sport', 'elections-2017'); // add 'varsity-2017' to this soon
+        $outlets = array( 'tv', 'press', 'sport', 'elections-2017', 'varsity-2017');
         $num_posts_to_display = 20;
         $posts_to_display = get_equal_num_posts_from_each_outlet( $outlets, $num_posts_to_display );
 
