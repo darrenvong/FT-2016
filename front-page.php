@@ -1,8 +1,8 @@
 <?php get_header( "front" ); ?>
 
       <section class="hero">
-        <a href="http://forgetoday.com/elections/">
-          <img src="<?php echo get_template_directory_uri() . "/elections2.jpg"?>">
+        <a href="http://forgetoday.com/varsity/">
+          <img src="<?php echo get_template_directory_uri() . "/varsity_2017_cover.jpg"?>">
         </a>
       </section>
 

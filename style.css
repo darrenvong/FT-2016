@@ -176,6 +176,10 @@ div.buttonDark{
     transition:0.2s;
 }*/
 
+#latest {
+  margin-top: 15px;
+}
+
 section.about{
     background-color:#efefef;
 }
